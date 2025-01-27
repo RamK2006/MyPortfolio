@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            font-size: 1.75rem;
+            color: #4a90e2;
+        }
+
+        .project-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="shadow">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+        <!-- About Section -->
+        <section id="about" class="mb-12">
+            <h2 class="mb-4">About Me</h2>
+            <p>I am a [Your Profession/Role] with a passion for [Your Interests]. I love working on projects that allow me to learn and grow while making an impact.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-12">
+            <h2 class="mb-4">Skills</h2>
+            <ul class="list-disc list-inside">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="project-card">
+                    <h3 class="text-lg font-bold">Project 1</h3>
+                    <p>Brief description of the project.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="text-lg font-bold">Project 2</h3>
+                    <p>Brief description of the project.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="text-lg font-bold">Project 3</h3>
+                    <p>Brief description of the project.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-12">
+            
+            <h2 class="mb-4">Contact</h2>
+                        <p>Feel free to reach out to me via email at <a href="fake1232@gmail.com" class="text-blue-500 underline">itsyash23108@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
